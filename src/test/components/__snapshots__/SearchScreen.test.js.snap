@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prueba en componente Search Debe de mostrar a Batman y el input con el valor del queryString 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <form
+        className="m-3"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="row"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value="batman"
+        />
+        <button
+          className="row btn btn-outline-primary mt-1 "
+          type="submit"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="col"
+      >
+        <div
+          className="card"
+        >
+          <div
+            className="row no-gutters"
+          >
+            <div
+              className="col-4"
+            >
+              <img
+                alt="Batman"
+                className="card-img-top"
+                src="/assets/heroes/dc-batman.jpg"
+              />
+            </div>
+            <div
+              className="col-8"
+            >
+              <h5
+                className="card-title"
+              >
+                Batman
+              </h5>
+              <p
+                className="card-text"
+              >
+                Bruce Wayne
+              </p>
+              <p
+                className="card-text"
+              >
+                <small
+                  className="text-muted"
+                >
+                  Detective Comics #27
+                </small>
+              </p>
+              <a
+                className="text-info"
+                href="/hero/dc-batman"
+                onClick={[Function]}
+              >
+                 Más... 
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Prueba en componente Search Debe de mostrar alerta de error di no se encuentra la entrada del input de busqueda de heroes 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <form
+        className="m-3"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="row"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value="123"
+        />
+        <button
+          className="row btn btn-outline-primary mt-1 "
+          type="submit"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+        No se encontraron resultados de: 
+        123
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Prueba en componente Search Debe de mostrar alerta de error si no se encuentra la entrada del input de busqueda de heroes 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <form
+        className="m-3"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="row"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value="123"
+        />
+        <button
+          className="row btn btn-outline-primary mt-1 "
+          type="submit"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-danger"
+      >
+        No se encontraron resultados de: 
+        123
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Prueba en componente Search Debe de mostrarse correctamente con valores por defecto 1`] = `
+<div>
+  <h1>
+    Search
+  </h1>
+  <hr />
+  <div
+    className="row"
+  >
+    <div
+      className="col-5"
+    >
+      <form
+        className="m-3"
+        onSubmit={[Function]}
+      >
+        <input
+          autoComplete="off"
+          className="row"
+          name="searchText"
+          onChange={[Function]}
+          placeholder="Search a Hero"
+          type="text"
+          value=""
+        />
+        <button
+          className="row btn btn-outline-primary mt-1 "
+          type="submit"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      className="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        className="alert alert-info"
+      >
+        Buscar un Héroe
+      </div>
+    </div>
+  </div>
+</div>
+`;
